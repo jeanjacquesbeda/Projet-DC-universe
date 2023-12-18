@@ -24,10 +24,10 @@
    }
    /* figure */
    figure{
-    max-width: 80rem;
+    max-width: 90rem;
     margin: 0 auto;
     border: solid .1rem #dfe6e9;
-    padding: .1rem;
+    padding: 1rem;
     background-color: var(--letter-color)
 
    }
