@@ -1,25 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 
-html{
-    font-size: 62.5%; /* 16px suit 62.5 = 10 rem */
-}
-body{
-    font: 1.6rem "Montserrat", sans-serif;
-    margin: 0;
-    letter-spacing: 0.1rem; /* 1px */
-    line-height: 1.6;
-    background-color: var(--bgcolor-theme);
-}
-h1,h2,h3, p,figure,ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-weight: normal;
-}
-*{
-    box-sizing: border-box;
-}
-
+@import url(./reset.css);
 /* ==============================
    SECTION 1: RESET CSS
    ============================== */
@@ -64,7 +45,24 @@ h1,h2,h3, p,figure,ul{
 background-color: var(--bgcolor-list);
 }
 /* detail du film */
-details summary{
-    line-height: 6rem;
+details summary {
     background-color: var(--bgcolor-list);
+}
+/* media queris */
+@media screen and (max-width: 80rem;){
+    figure figcaption ul{
+        line-height: 6rem;
+    }
+    details p{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 100rem;){
+    figure figcaption ul{
+        line-height: 6rem;
+    }
+    details p{
+        text-align: left;
+    }
 }
